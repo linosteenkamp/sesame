@@ -1,5 +1,5 @@
 # sesame
-Arduino library for a Arduino Uno with the ITEAD SIM5216A 3G Shield that is used to receive an SMS and then phone a number to open a gate 
+Arduino library for a Arduino Uno with the ITEAD 3G Shield (SIM5216A) that is used to receive an SMS and then phone a number to open a gate 
 
 ## Introduction
 This was my first Arduino project born out of necessity
