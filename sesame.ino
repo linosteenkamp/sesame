@@ -1,5 +1,6 @@
 // Includes
 #include <SoftwareSerial.h>
+#include "sesame.h"
 
 // Definitions
 #define OK  ("OK")                                                    // AT OK
@@ -18,17 +19,17 @@ const byte DEBUG = false;                                             // set to 
 const byte SMS_RECORD_LENGTH = 255;
 const byte SMS_MESSAGE_LENGTH = 161;
 const byte SMS_DATE_TIME_LENGTH = 18;
-const byte TEL_NUMBER_LENGTH = 13;
-const byte MAX_ALLOWED_NUMBERS = 6;                                   // the amount of telephone numbers that is allowed to open the gate
-const char GATE_NUMBER[] = "+27000000000";                            // the gate number to call
-const char ALLOWED_NUMBERS[MAX_ALLOWED_NUMBERS][TEL_NUMBER_LENGTH] = {
-  "+27000000000",                                                     // Number1
-  "+27000000000",                                                     // Number2
-  "+27000000000",                                                     // Number3
-  "+27000000000",                                                     // Number4
-  "+27000000000",                                                     // Number5
-  "+27000000000"                                                      // Number6
-};
+//const byte TEL_NUMBER_LENGTH = 13;
+//const byte MAX_ALLOWED_NUMBERS = 6;                                   // the amount of telephone numbers that is allowed to open the gate
+//const char GATE_NUMBER[] = "+27000000000";                            // the gate number to call
+//const char ALLOWED_NUMBERS[MAX_ALLOWED_NUMBERS][TEL_NUMBER_LENGTH] = {
+//  "+27000000000",                                                     // Number1
+//  "+27000000000",                                                     // Number2
+//  "+27000000000",                                                     // Number3
+//  "+27000000000",                                                     // Number4
+//  "+27000000000",                                                     // Number5
+//  "+27000000000"                                                      // Number6
+//};
 
 // Global variables
 byte resultCode = 0;
