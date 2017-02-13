@@ -1,9 +1,8 @@
 // Cange the constants in this header file to suit your environment
 // Make your changes in this file and rename it to sesame.h
 
-const byte TEL_NUMBER_LENGTH = 13;
 const byte MAX_ALLOWED_NUMBERS = 6;                                   // the amount of telephone numbers that is allowed to open the gate
-const char GATE_NUMBER[] = "+27000000000";                            // the gate number to call
+const byte TEL_NUMBER_LENGTH = 13;
 const char ALLOWED_NUMBERS[MAX_ALLOWED_NUMBERS][TEL_NUMBER_LENGTH] = {
   "+27000000000",                                                     // Number1
   "+27000000000",                                                     // Number2
@@ -12,4 +11,4 @@ const char ALLOWED_NUMBERS[MAX_ALLOWED_NUMBERS][TEL_NUMBER_LENGTH] = {
   "+27000000000",                                                     // Number5
   "+27000000000"                                                      // Number6
 };
-
+const char GATE_NUMBER[] = "+27000000000";                            // the gate number to call

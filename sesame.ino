@@ -11,7 +11,7 @@
 // Constants
 const short BAUDRATE = 9600;
 const short AT_TIMEOUT = 5000;                                        // AT command timeout in milliseconds
-const byte TX_PIN = 6;                                                
+const byte TX_PIN = 6;                                                // You need to change this to match your selected pins on your GSM shield
 const byte RX_PIN = 7;
 const byte POWER_PIN = 8;
 const byte RESET_PIN = 9;
@@ -19,6 +19,12 @@ const byte DEBUG = false;                                             // set to 
 const byte SMS_RECORD_LENGTH = 255;
 const byte SMS_MESSAGE_LENGTH = 161;
 const byte SMS_DATE_TIME_LENGTH = 18;
+
+// this commented section with sensitive data was moved to sesame.h.template
+// to make this work, either...
+// update the information in sesame.h.template and copy the file to sesame.h
+// or 
+// remove the sesame.h include from the top of this file, uncomment the following lines and change the values to suit your environment
 //const byte TEL_NUMBER_LENGTH = 13;
 //const byte MAX_ALLOWED_NUMBERS = 6;                                   // the amount of telephone numbers that is allowed to open the gate
 //const char GATE_NUMBER[] = "+27000000000";                            // the gate number to call
